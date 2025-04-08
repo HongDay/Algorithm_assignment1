@@ -1,4 +1,4 @@
-import algorithms.MergeSort;
+import algorithms.LibrarySort;
 import algorithms.Sortings;
 import common.Analresult;
 import common.Item;
@@ -6,8 +6,8 @@ import common.Item;
 class Main {
     public static void main(String[] args) {
 
-        System.out.println("\nMergeSort time duration");
-        Sortings sorter = new MergeSort();
+        System.out.println("\nLibrarySort time duration");
+        Sortings sorter = new LibrarySort();
 
         int[] sizes = {1000, 3000, 6000, 10000, 30000, 60000, 100000, 300000, 600000, 1000000};
         for (int size : sizes) {

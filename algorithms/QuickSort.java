@@ -6,6 +6,7 @@ public class QuickSort extends Sortings {
     @Override
     public Item[] getsorted(Item[] tobesorted){
         quick_sort(tobesorted, 0, tobesorted.length-1);
+        return tobesorted;
     }
 
     private void quick_sort(Item[] tobesorted, int left, int right){
