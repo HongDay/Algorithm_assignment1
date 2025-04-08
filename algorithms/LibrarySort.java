@@ -11,7 +11,7 @@ public class LibrarySort extends Sortings {
 
         for(int i = 1; i < tobesorted.length; i++){
             // rebalancing 구현
-            if ((i & (i + 1)) == 0){
+            if ((i & (i - 1)) == 0){
                 Item[] temp = new Item[tobesorted.length];
                 int tempi = 0;
                 for (Item item : bigarr){
@@ -39,16 +39,32 @@ public class LibrarySort extends Sortings {
                 int nulli = nearnull(bigarr, inserti);
                 // 가장가까운 nulli 쪽으로 밀어서 넣는 코드
                 if (nulli < inserti){
-                    for (int j = nulli; j < inserti; j++){
-                        bigarr[j] = bigarr[j+1];
+                    if (bigarr[inserti].value <= tobesorted[i].value){
+                        for (int j = nulli; j < inserti; j++){
+                            bigarr[j] = bigarr[j+1];
+                        }
+                        bigarr[inserti] = tobesorted[i];
                     }
-                    bigarr[inserti] = tobesorted[i];
+                    else{
+                        for (int j = nulli; j < inserti-1; j++){
+                            bigarr[j] = bigarr[j+1];
+                        }
+                        bigarr[inserti-1] = tobesorted[i];
+                    }
                 }
                 else {
-                    for (int j = nulli; j > inserti; j--){
-                        bigarr[j] = bigarr[j-1];
+                    if (bigarr[inserti].value <= tobesorted[i].value){
+                        for (int j = nulli; j > inserti+1; j--){
+                            bigarr[j] = bigarr[j-1];
+                        }
+                        bigarr[inserti+1] = tobesorted[i];
                     }
-                    bigarr[inserti] = tobesorted[i];
+                    else{
+                        for (int j = nulli; j > inserti; j--){
+                            bigarr[j] = bigarr[j-1];
+                        }
+                        bigarr[inserti] = tobesorted[i];
+                    }
                 }
             }
             else bigarr[inserti] = tobesorted[i];
@@ -67,16 +83,15 @@ public class LibrarySort extends Sortings {
     private int libinary(Item[] bigarr, int val){
         int left = 0;
         int right = bigarr.length - 1;
-        int mid = (left+right) / 2;
 
         while(left <= right){
-            mid = (left + right) / 2;
+            int mid = (left + right) / 2;
             int finded = findnear(bigarr, mid, left, right);
             if (finded == -1) break;
             else if(val < bigarr[finded].value) right = finded-1;
             else if(val >= bigarr[finded].value) left = finded+1;
         }
-        return mid;
+        return (left + right)/2;
     }
 
     // 만약 타겟 값이 null이면 가장 가까운 null이아닌 값의 위치 / null이 아니면 그 위치를 반환
