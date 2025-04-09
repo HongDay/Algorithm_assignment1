@@ -17,7 +17,7 @@ public class QuickSort extends Sortings {
         }
     }
 
-    private int partition(Item[] tobesorted, int left, int right){
+    public int partition(Item[] tobesorted, int left, int right){
         Item pivot = tobesorted[right];
         int i = left - 1;
         for (int j = left; j < right; j++){

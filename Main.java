@@ -1,4 +1,4 @@
-import algorithms.CombSort;
+import algorithms.IntroSort;
 import algorithms.Sortings;
 import common.Analresult;
 import common.Item;
@@ -6,8 +6,8 @@ import common.Item;
 class Main {
     public static void main(String[] args) {
 
-        System.out.println("\nCombSort time duration");
-        Sortings sorter = new CombSort();
+        System.out.println("\nIntroSort time duration");
+        Sortings sorter = new IntroSort();
 
         int[] sizes = {1000, 3000, 6000, 10000, 30000, 60000, 100000, 300000, 600000, 1000000};
         for (int size : sizes) {
