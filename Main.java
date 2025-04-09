@@ -1,13 +1,13 @@
+import algorithms.QuickSort;
 import algorithms.Sortings;
-import algorithms.TimSort;
 import common.Analresult;
 import common.Item;
 
 class Main {
     public static void main(String[] args) {
 
-        System.out.println("\nTimSort time duration");
-        Sortings sorter = new TimSort();
+        System.out.println("\nQuickSort time duration");
+        Sortings sorter = new QuickSort();
 
         int[] sizes = {1000, 3000, 6000, 10000, 30000, 60000, 100000, 300000, 600000, 1000000};
         for (int size : sizes) {
@@ -20,10 +20,11 @@ class Main {
             int iter = 10;
             int div = 10;
             if (size == 1000) iter = 16;
+            /* only for the O(n^2) algorithms
             if (size > 100000) {
                 iter = 1;
                 div = 1;
-            }
+            }*/
             for (int i = 0; i < iter; i++) {
                 Item[] testarr = InputGenerator.inputgenerate(size);
                 Analresult results = sorter.analysis(testarr);

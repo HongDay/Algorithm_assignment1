@@ -7,6 +7,7 @@ public class TimSort extends Sortings {
     int minrun;
     Run[] runstack;
     int stacki;
+    Item[] mergeBuffer;
 
     @Override
     public Item[] getsorted(Item[] tobesorted) {
@@ -27,12 +28,7 @@ public class TimSort extends Sortings {
 
         // run 병합 (stack이 하나가 될 때까지)
         while (this.stacki > 1) {
-            int before = this.stacki;
-            invariant(tobesorted);
-            if (this.stacki == before) {
-                // 조건에 맞는 병합이 일어나지 않았다면 강제로 병합
-                partial_merge(tobesorted, stacki - 2);
-            }
+            partial_merge(tobesorted, this.stacki-1);
         }
         return tobesorted;
     }
@@ -63,7 +59,12 @@ public class TimSort extends Sortings {
     private void partial_merge(Item[] tobesorted, int top) {
         Run A = this.runstack[top];
         Run B = this.runstack[top + 1];
-        Item[] merged = new Item[A.length + B.length];
+
+        int total = A.length + B.length;
+        if (mergeBuffer == null || mergeBuffer.length < total) {
+            mergeBuffer = new Item[total];
+        }
+        Item[] merged = mergeBuffer;
 
         int i = 0, j = 0, k = 0;
         int countA = 0, countB = 0;
