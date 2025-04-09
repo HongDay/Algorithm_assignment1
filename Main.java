@@ -1,13 +1,13 @@
-import algorithms.IntroSort;
 import algorithms.Sortings;
+import algorithms.TimSort;
 import common.Analresult;
 import common.Item;
 
 class Main {
     public static void main(String[] args) {
 
-        System.out.println("\nIntroSort time duration");
-        Sortings sorter = new IntroSort();
+        System.out.println("\nTimSort time duration");
+        Sortings sorter = new TimSort();
 
         int[] sizes = {1000, 3000, 6000, 10000, 30000, 60000, 100000, 300000, 600000, 1000000};
         for (int size : sizes) {
