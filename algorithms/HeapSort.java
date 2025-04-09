@@ -22,7 +22,7 @@ public class HeapSort extends Sortings {
         }
     }
 
-    private void maxheapify(Item[] tobesorted, int len, int i){
+    public static void maxheapify(Item[] tobesorted, int len, int i){
         int l = 2*i + 1;
         int r = 2*i + 2;
         int largest;
