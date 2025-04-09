@@ -9,12 +9,15 @@ public class CocktailSort extends Sortings {
         int size = tobesorted.length - 1;
         
         for (int i = 0; i < tobesorted.length-1; i++){
+            boolean swapped = false;
+
             if(i % 2 == 0){
                 for (int j = start; j < size; j++){
                     if (tobesorted[j].value>tobesorted[j+1].value){
                         Item target = tobesorted[j];
                         tobesorted[j] = tobesorted[j+1];
                         tobesorted[j+1] = target;
+                        swapped = true;
                     }
                 }
                 size--;
@@ -25,10 +28,12 @@ public class CocktailSort extends Sortings {
                         Item target = tobesorted[j];
                         tobesorted[j] = tobesorted[j-1];
                         tobesorted[j-1] = target;
+                        swapped = true;
                     }
                 }
                 start++;
             }
+            if(!swapped) break;
         }
         return tobesorted;
     }
