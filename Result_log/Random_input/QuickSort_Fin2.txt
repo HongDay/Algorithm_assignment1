@@ -1,0 +1,42 @@
+QuickSort2 time duration
+--- Input Type: Random ---
+    1000_size : time =      0.10 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of  6
+    3000_size : time =      0.35 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of 10
+    6000_size : time =      0.82 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   10000_size : time =      1.27 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =      6.28 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =     20.60 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =     33.87 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : time =    100.14 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  600000_size : time =    140.49 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+ 1000000_size : time =    218.37 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10

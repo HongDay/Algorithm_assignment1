@@ -1,0 +1,1618 @@
+BubbleSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.29 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      2.53 ms
+               space =   4196.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     11.01 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     35.78 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    304.69 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   1214.02 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =   3479.71 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =  32649.18 ms
+               space =  62944.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 128793.79 ms
+               space =  95448.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 371913.52 ms
+               space =  35472.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      1.17 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =     10.44 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     42.09 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =    118.00 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =   1175.42 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   5547.57 ms
+               space =    888.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =  13121.05 ms
+               space =   1819.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time = 155614.87 ms
+               space =   4776.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 623394.25 ms
+               space =   5168.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 1731890.82 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.97 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  4 case out of  4
+    3000_size : time =      8.35 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  9 case out of  9
+    6000_size : time =     33.97 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =     90.96 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =    979.85 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =   5475.86 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =  13530.85 ms
+               space =    620.80 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time = 151670.71 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+  600000_size : time = 629053.56 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+ 1000000_size : time = 1867468.45 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+
+
+InsertionSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.05 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.14 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.25 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.01 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      0.05 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      0.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      0.17 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =      0.67 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time =      1.35 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time =      2.23 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.78 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      7.00 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     29.42 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     82.86 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    935.81 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =  10355.16 ms
+               space =    620.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =  12407.25 ms
+               space =    620.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time = 451044.96 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 1814218.05 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 5046165.51 ms
+               space =   6208.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.40 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of  3
+    3000_size : time =      3.55 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+    6000_size : time =     14.27 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =     41.05 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =    384.57 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =   4110.48 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =   5439.92 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time = 287917.54 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+  600000_size : time = 996544.67 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+ 1000000_size : time = 2131220.14 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+
+
+SelectionSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      1.23 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      2.33 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     10.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     33.63 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    318.76 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   1269.07 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =   3551.80 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =  32379.93 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 130915.54 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 383121.33 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.49 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      3.76 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     15.02 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     42.32 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    384.26 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   1531.30 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =   4264.81 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =  39062.06 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 155829.39 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 438703.89 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.40 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of  2
+    3000_size : time =      3.13 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  6 case out of 10
+    6000_size : time =     12.45 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of 10
+   10000_size : time =     35.57 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =    329.23 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =   1322.29 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =   3755.72 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : time =  35535.76 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  1
+  600000_size : time = 149142.94 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  1
+ 1000000_size : time = 458513.30 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  1
+
+
+CocktailSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.02 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.06 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.14 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.22 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      0.41 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      0.04 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      0.07 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =      0.22 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time =      0.45 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time =      0.76 ms
+               space =      0.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      1.14 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =     10.27 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     41.21 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =    115.36 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =   1155.97 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   5729.54 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =  13438.11 ms
+               space =    620.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time = 161579.67 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 647165.90 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 1799435.24 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      1.10 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  4 case out of  4
+    3000_size : time =      7.03 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+    6000_size : time =     27.74 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =     78.19 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =    823.59 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =   5588.32 ms
+               space =    310.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =  13310.79 ms
+               space =    620.80 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time = 150169.04 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+  600000_size : time = 545357.04 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+ 1000000_size : time = 1117256.21 ms
+               space =   3104.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+
+HeapSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.20 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.47 ms
+               space =   4196.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.76 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      1.17 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      3.64 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      7.56 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =     12.52 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     47.93 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =    105.25 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    169.86 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.09 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.30 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.64 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      1.08 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      3.95 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      8.36 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =     14.05 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     47.67 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =    101.61 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    175.07 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.11 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of  6
+    3000_size : time =      0.37 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of 10
+    6000_size : time =      0.81 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   10000_size : time =      1.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =      5.69 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =     13.97 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =     22.29 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : time =     78.64 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  600000_size : time =    175.06 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+ 1000000_size : time =    311.43 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+
+
+MergeSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.51 ms
+               space = 175093.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.88 ms
+               space = 504053.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.43 ms
+               space = 991588.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.57 ms
+               space = 1684860.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      2.49 ms
+               space = 3313761.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      4.61 ms
+               space = 2900948.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      7.22 ms
+               space = 5914061.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     34.39 ms
+               space = 15711506.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =     88.80 ms
+               space = 29554571.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    151.86 ms
+               space = 41547376.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.10 ms
+               space = 169640.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.28 ms
+               space = 509168.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.39 ms
+               space = 959144.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.62 ms
+               space = 1646288.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      2.18 ms
+               space = 5160476.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      4.75 ms
+               space = 4093216.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      7.97 ms
+               space = 6945189.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     27.18 ms
+               space = 22481520.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =     77.25 ms
+               space = 26641808.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    124.21 ms
+               space = 41547376.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.08 ms
+               space = 169640.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of  1
+    3000_size : time =      0.27 ms
+               space = 509168.00 bytes
+               sort success 10 case out of 10
+           stability ensure  9 case out of  9
+    6000_size : time =      0.58 ms
+               space = 959144.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =      1.01 ms
+               space = 1646288.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =      3.52 ms
+               space = 5160482.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =      7.65 ms
+               space = 4093208.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =     12.91 ms
+               space = 6945142.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time =     44.29 ms
+               space = 22481520.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  600000_size : time =    102.44 ms
+               space = 26641808.80 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+ 1000000_size : time =    181.62 ms
+               space = 41547376.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+
+
+CombSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.09 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.09 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.16 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.28 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      0.96 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      2.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      3.79 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     12.69 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =     27.68 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =     49.89 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.10 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.15 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.33 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.58 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      1.97 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      4.32 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      7.53 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     24.99 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =     53.92 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =     96.64 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.09 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  2 case out of  5
+    3000_size : time =      0.32 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  9
+    6000_size : time =      0.76 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of 10
+   10000_size : time =      1.42 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =      6.00 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =     14.14 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =     22.92 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : time =     80.58 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  600000_size : time =    175.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+ 1000000_size : time =    320.92 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+
+
+IntroSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.40 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      1.38 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      2.50 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      1.95 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      7.70 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =     24.33 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =     29.21 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =    170.22 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =    357.49 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    610.15 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.21 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.46 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.97 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      1.70 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      6.06 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =     13.48 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =     22.07 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     79.71 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =    169.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    296.01 ms
+               space =  16780.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  1 case out of  2
+    3000_size : time =      0.37 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of 10
+    6000_size : time =      0.82 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   10000_size : time =      1.32 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =      5.33 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =     14.53 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =     21.16 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : time =     86.02 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  600000_size : time =    219.51 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+ 1000000_size : time =    488.11 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+
+TimSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.04 ms
+               space =   3277.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.12 ms
+               space =   7626.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.11 ms
+               space =   3732.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.05 ms
+               space =   6241.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      0.15 ms
+               space =  16848.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      0.18 ms
+               space =  34644.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      0.19 ms
+               space = 211629.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =      0.59 ms
+               space = 207158.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =      1.09 ms
+               space = 496958.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =      1.82 ms
+               space = 578060.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.04 ms
+               space =   3224.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.03 ms
+               space =   3344.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.07 ms
+               space =   3729.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.12 ms
+               space =   6240.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      0.19 ms
+               space =  16849.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      0.22 ms
+               space =  34644.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      0.32 ms
+               space = 212311.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =      1.14 ms
+               space = 207168.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =      2.31 ms
+               space = 534521.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =      3.90 ms
+               space = 576140.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.38 ms
+               space =   3228.00 bytes
+               sort success 10 case out of 10
+           stability ensure  4 case out of  4
+    3000_size : time =      0.31 ms
+               space =  17647.20 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+    6000_size : time =      0.92 ms
+               space =  59270.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =      1.01 ms
+               space = 122127.20 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =      4.86 ms
+               space = 291432.80 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =     12.21 ms
+               space = 2802959.20 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =     27.74 ms
+               space = 5890512.80 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time =    233.97 ms
+               space = 26568635.20 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  600000_size : time =   1560.24 ms
+               space = 422255189.60 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+ 1000000_size : time =   1981.70 ms
+               space = 164252782.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+
+
+TournamentSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.25 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.72 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.93 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      1.61 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      4.90 ms
+               space = 2090427.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =     10.25 ms
+               space = 3138256.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =     23.25 ms
+               space = 6271808.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     66.48 ms
+               space = 19922944.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =    131.96 ms
+               space = 36700160.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    210.31 ms
+               space = 36700160.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.23 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.45 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.94 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      1.88 ms
+               space = 1048576.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      4.93 ms
+               space = 2095316.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =     10.06 ms
+               space = 3143688.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =     24.51 ms
+               space = 6273489.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     77.85 ms
+               space = 19557564.80 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =    141.69 ms
+               space = 36406672.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =    222.25 ms
+               space = 36447423.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.17 ms
+               space = 468272.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of  3
+    3000_size : time =      0.64 ms
+               space = 492848.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+    6000_size : time =      1.30 ms
+               space = 525616.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =      2.64 ms
+               space = 591152.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =      9.69 ms
+               space = 1182312.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =     16.24 ms
+               space = 2557240.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =     36.55 ms
+               space = 5624756.80 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time =    135.10 ms
+               space = 19419166.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  600000_size : time =    267.52 ms
+               space = 36398249.60 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+ 1000000_size : time =    392.54 ms
+               space = 36360257.60 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+
+LibrarySort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.98 ms
+               space =  51290.40 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      3.36 ms
+               space = 176715.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     11.40 ms
+               space = 369400.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     28.82 ms
+               space = 656644.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    290.36 ms
+               space = 2102924.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   1331.50 ms
+               space = 4497312.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =   3268.60 ms
+               space = 7119232.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =  97602.37 ms
+               space = 8430576.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 392525.08 ms
+               space = 44459648.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 1239469.39 ms
+               space = 84008792.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      1.61 ms
+               space =  51419.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      6.15 ms
+               space = 172501.60 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     24.18 ms
+               space = 369400.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     59.95 ms
+               space = 656644.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    714.53 ms
+               space = 2094192.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =   2772.94 ms
+               space = 992496.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =   6771.08 ms
+               space = 3840695.20 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =  62666.15 ms
+               space = 44051736.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+  600000_size : time = 249594.15 ms
+               space = 14720408.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+ 1000000_size : time = 867959.25 ms
+               space = 92408544.00 bytes
+               sort success  1 case out of  1
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.61 ms
+               space =  51413.60 bytes
+               sort success 10 case out of 10
+           stability ensure  4 case out of  4
+    3000_size : time =      3.09 ms
+               space = 172503.20 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+    6000_size : time =      6.42 ms
+               space = 369400.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   10000_size : time =     12.30 ms
+               space = 656644.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   30000_size : time =    126.79 ms
+               space = 2088617.60 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+   60000_size : time =    496.43 ms
+               space = 2744314.40 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  100000_size : time =    804.85 ms
+               space = 7473344.00 bytes
+               sort success 10 case out of 10
+           stability ensure 10 case out of 10
+  300000_size : time =   5985.01 ms
+               space = 44040192.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+  600000_size : time =  16827.19 ms
+               space = 81788928.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+ 1000000_size : time =  76281.40 ms
+               space = 92289688.00 bytes
+               sort success  1 case out of  1
+           stability ensure  1 case out of  1
+
+QuickSort time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.98 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      9.00 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     36.73 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =    103.42 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =   1528.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : StackOverflow Occured!! / recurse stopped at depth : 35300
+  100000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+  300000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+  600000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+ 1000000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.87 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      7.49 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =     31.59 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =     84.30 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =    880.46 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : StackOverflow Occured!! / recurse stopped at depth : 35300
+  100000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+  300000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+  600000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+ 1000000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.35 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of  4
+    3000_size : time =      2.54 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of  9
+    6000_size : time =      9.31 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   10000_size : time =     23.72 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =    256.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =   1492.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =   3383.28 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : StackOverflow Occured!! / recurse stopped at depth : 35300
+  600000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+ 1000000_size : StackOverflow Occured!! / recurse stopped at depth : 35294
+
+QuickSort2 time duration
+--- Input Type: Sorted ---
+    1000_size : time =      0.03 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.08 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.16 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.28 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      1.03 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      2.74 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      3.92 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     19.48 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =     35.42 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =     57.90 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Reversed ---
+    1000_size : time =      0.04 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    3000_size : time =      0.12 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+    6000_size : time =      0.23 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   10000_size : time =      0.38 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   30000_size : time =      1.21 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+   60000_size : time =      2.84 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  100000_size : time =      4.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  300000_size : time =     16.57 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+  600000_size : time =     37.76 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+ 1000000_size : time =     75.13 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of  0
+
+--- Input Type: Partially Sorted ---
+    1000_size : time =      0.07 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  3 case out of  3
+    3000_size : time =      0.21 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  2 case out of 10
+    6000_size : time =      0.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   10000_size : time =      0.84 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   30000_size : time =      3.50 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+   60000_size : time =      9.16 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  100000_size : time =     11.25 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  300000_size : time =     41.47 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+  600000_size : time =     96.04 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
+ 1000000_size : time =    157.90 ms
+               space =      0.00 bytes
+               sort success 10 case out of 10
+           stability ensure  0 case out of 10
