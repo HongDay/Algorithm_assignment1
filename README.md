@@ -14,6 +14,9 @@ This repository is for **CSE331: Introduction to Algorithms - Assignment1**
 ### Algorithm_assignment1
 - `InputGenerator.java` : Input array 생성을 위한 코드 (랜덤,정렬,역정렬,부분정렬)
 - `Main.java` : InputGenerator를 import해서 input을 return받고 바로 실행
+- Result log
+    - Random_input : folder contains random input result log png files for each sorting algorithm
+    - Sorted_Reversd_Partial_input.txt : text file contains  sorted, reversed, partial input result log for each sorting algorithm
 - common
     - `Analresult.java` : 분석 결과를 담을 구조체
     - `Item.java` : stability 판별을 위한 구조체, array는 (item,first_index) 쌍을 가짐
