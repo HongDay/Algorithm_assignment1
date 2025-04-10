@@ -1,11 +1,5 @@
-import algorithms.CombSort;
-import algorithms.HeapSort;
-import algorithms.IntroSort;
-import algorithms.LibrarySort;
-import algorithms.MergeSort;
+import algorithms.QuickSort;
 import algorithms.Sortings;
-import algorithms.TimSort;
-import algorithms.TournamentSort;
 import common.Analresult;
 import common.Item;
 import java.util.function.IntFunction;
@@ -14,20 +8,15 @@ class Main {
     public static void main(String[] args) {
 
         Sortings[] sorters = {
-            //new QuickSort(),
-            new HeapSort(),
-            new MergeSort(),
-            new CombSort(),
-            new IntroSort(),
-            new LibrarySort(),
-            new TimSort(),
-            new TournamentSort()
+            new QuickSort()
+            //new LibrarySort()
         };
         for (Sortings sorter : sorters) {
             System.out.println("\n"+sorter.getClass().getSimpleName()+" time duration");
 
             String[] inputNames = {"Sorted", "Reversed", "Partially Sorted"};
             IntFunction<Item[]>[] inputGenerators = new IntFunction[]{
+                //InputGenerator::randominput,
                 InputGenerator::sortedinput,
                 InputGenerator::reversedinput,
                 InputGenerator::partialinput
@@ -56,9 +45,17 @@ class Main {
                         iter = 1;
                         div = 1;
                     }*/
+                    System.out.printf("%8d_size : ", size, totaltime/div);
+                    boolean iserror = false;
                     for (int i = 0; i < iter; i++) {
                         Item[] testarr = generator.apply(size);
-                        Analresult results = sorter.analysis(testarr);
+                        Analresult results;
+                        try {
+                            results = sorter.analysis(testarr);                            
+                        } catch (StackOverflowError e) {
+                            iserror = true;
+                            break;
+                        }
         
                         //System.out.printf("%7s iter %d time = %9.2f ms\n","", i, results.duration);
         
@@ -71,10 +68,12 @@ class Main {
                         if(results.isStable) stability++;
                         if(results.stabilitycheckable) stabilitycheckable++;
                     }
-                    System.out.printf("%8d_size : time = %9.2f ms\n", size, totaltime/div);
-                    System.out.printf("%14s space = %9.2f bytes\n","",(double)totalspace/div);
-                    System.out.printf("%14s sort success %2d case out of %2d\n","",sortsuccess,div);
-                    System.out.printf("%10s stability ensure %2d case out of %2d\n","",stability,stabilitycheckable);
+                    if(!iserror){
+                        System.out.printf("time = %9.2f ms\n", totaltime/div);
+                        System.out.printf("%14s space = %9.2f bytes\n","",(double)totalspace/div);
+                        System.out.printf("%14s sort success %2d case out of %2d\n","",sortsuccess,div);
+                        System.out.printf("%10s stability ensure %2d case out of %2d\n","",stability,stabilitycheckable);
+                    }
                 }
                 System.out.println();
             }

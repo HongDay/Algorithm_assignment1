@@ -2,15 +2,24 @@ package algorithms;
 import common.Item;
 
 public class QuickSort extends Sortings {
+
+    private int recursionDepth = 0;
     
     @Override
     public Item[] getsorted(Item[] tobesorted){
-        quick_sort(tobesorted, 0, tobesorted.length-1);
+        recursionDepth = 0;
+        try {
+            quick_sort(tobesorted, 0, tobesorted.length-1);
+        } catch (StackOverflowError e) {
+            System.err.println("StackOverflow Occured!! / recurse stopped at depth : "+recursionDepth);
+            throw e;
+        }
         return tobesorted;
     }
 
     private void quick_sort(Item[] tobesorted, int left, int right){
         if(left<right){
+            recursionDepth++;
             int q = partition(tobesorted,left,right);
             quick_sort(tobesorted, left, q-1);
             quick_sort(tobesorted, q+1, right);
